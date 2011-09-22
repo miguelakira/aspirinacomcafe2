@@ -13,6 +13,7 @@ gem 'therubyracer'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem "thin"
+gem 'tinymce-rails'
 
 
 group :production do

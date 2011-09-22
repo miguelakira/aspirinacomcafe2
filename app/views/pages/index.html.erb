@@ -1,0 +1,8 @@
+<h1>Welcome</h1>
+
+<% @posts.each do |post| %>
+  <h2><%= raw(post.title) %></h2>
+  <h3><%= raw(post.description) %></h3>
+  <p><%= raw(post.category.title) %></p>
+  <p><%= raw(post.body) %></p>
+<% end %>
