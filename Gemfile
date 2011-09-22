@@ -9,6 +9,9 @@ gem 'formtastic', '2.0.0.rc5'
 gem 'execjs'
 gem 'therubyracer'
 
+gem 'haml'
+gem 'haml-rails'
+
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
