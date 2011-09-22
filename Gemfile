@@ -12,7 +12,15 @@ gem 'therubyracer'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql'
+gem "thin"
+
+
+group :production do
+  gem 'pg'
+end
+group :development, :test do
+  gem 'mysql'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
