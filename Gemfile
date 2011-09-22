@@ -22,7 +22,7 @@ group :production do
 end
 
 group :development, :test do
-  
+  gem 'mysql'
   gem 'therubyracer'
 end
 
@@ -35,6 +35,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
