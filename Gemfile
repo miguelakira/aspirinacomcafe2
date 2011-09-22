@@ -7,7 +7,8 @@ gem 'devise'
 
 gem 'formtastic', '2.0.0.rc5'
 gem 'execjs'
-gem 'therubyracer'
+
+
 
 gem 'haml'
 gem 'haml-rails'
@@ -18,12 +19,13 @@ gem 'haml-rails'
 gem "thin"
 gem 'tinymce-rails'
 
-
 group :production do
   gem 'pg'
 end
+
 group :development, :test do
   gem 'mysql'
+  gem 'therubyracer'
 end
 
 # Gems used only for assets and not required
