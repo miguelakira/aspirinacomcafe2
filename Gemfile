@@ -8,8 +8,6 @@ gem 'devise'
 gem 'formtastic', '2.0.0.rc5'
 gem 'execjs'
 
-
-
 gem 'haml'
 gem 'haml-rails'
 
@@ -24,7 +22,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'mysql'
+  
   gem 'therubyracer'
 end
 
@@ -37,7 +35,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
