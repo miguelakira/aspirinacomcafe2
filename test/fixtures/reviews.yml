@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  product: MyString
+  post_id: 1
+  score: 1.5
+  good: MyText
+  bad: MyText
+  conclusion: MyText
+
+two:
+  product: MyString
+  post_id: 1
+  score: 1.5
+  good: MyText
+  bad: MyText
+  conclusion: MyText
