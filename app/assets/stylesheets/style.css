@@ -98,5 +98,5 @@ p.clr, .clr { clear:both; padding:0; margin:0; background:none;}
 .header_text { padding:0; background:url(/assets/transparent.png);}
 .header_text_resize { width:960px; margin:0 auto; padding:15px 0;}
 .header_text h1 { font:normal 30px Arial, Helvetica, sans-serif; color:#d4d4d4; padding:5px 20px 0; margin:0; float:left;}
-.header_text p { margin:0; padding:0; color:#33312f; font:normal 18px Arial, Helvetica, sans-serif;}
+.header_text p { margin:0; padding:0; color:#98938d; font:normal 18px Arial, Helvetica, sans-serif;}
 .header_text span { display:block; color:#b1b1b1; font:normal 11px Arial, Helvetica, sans-serif;}
