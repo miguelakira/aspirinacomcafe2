@@ -2,8 +2,6 @@ source 'http://rubygems.org'
 
 gem 'rails', :git => 'git://github.com/rails/rails.git', :branch => '3-1-stable'
 
-
-
 gem 'devise'
 gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 
@@ -17,7 +15,7 @@ gem 'haml-rails'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem "thin"
+#gem "thin"
 gem 'tinymce-rails'
 
 group :production do
@@ -26,7 +24,7 @@ end
 
 group :development, :test do
   gem 'mysql'
-  gem 'therubyracer'
+#  gem 'therubyracer'
 end
 
 # Gems used only for assets and not required

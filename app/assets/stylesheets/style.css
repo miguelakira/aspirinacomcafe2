@@ -25,7 +25,7 @@ html { padding:0; margin:0;}
 /* body */
 .body { padding:30px 0; margin:0;}
 .body_resize { width:920px; margin:0 auto; padding:10px 20px; background:url(/assets/transparent.png);}
-.body h2 { font: normal 20px Arial, Helvetica, sans-serif; color:#33312f; padding:10px 0; margin:0 0 15px 0; border-bottom:1px solid #262421;}
+.body h2 { font: normal 20px Arial, Helvetica, sans-serif; color:#98938d; padding:10px 0; margin:0 0 15px 0; border-bottom:1px solid #262421;}
 .body h2 span { display:block; font: normal 11px Arial, Helvetica, sans-serif; color:#b1b1b1; padding:0; margin:0;}
 .body .comment { float:right; width:44px; height:46px; background:url(/assets/comment_bg.gif) no-repeat; font:normal 22px Arial, Helvetica, sans-serif; color:#a4a4a4; line-height:38px; text-align:center;}
 .body p { font:normal 12px Arial, Helvetica, sans-serif; color:#848484; line-height:1.8em; padding:5px 0; margin:0;}
