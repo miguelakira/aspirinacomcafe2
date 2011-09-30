@@ -1,4 +1,6 @@
 Aspirinacomcafev20::Application.routes.draw do
+  get "menu/index"
+
   get "pages/index"
 
   resources :reviews

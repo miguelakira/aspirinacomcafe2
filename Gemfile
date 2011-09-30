@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', :git => 'git://github.com/rails/rails.git', :branch => '3-1-stable'
+gem 'rails', '3.1.0'
 
 gem 'devise'
 gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
@@ -24,7 +24,7 @@ end
 
 group :development, :test do
   gem 'mysql'
-#  gem 'therubyracer'
+  gem 'therubyracer'
 end
 
 # Gems used only for assets and not required

@@ -5,9 +5,9 @@
 #   gem 'sqlite3'
 development:
   adapter: mysql
-  database: aspirinacomcafe2
+  database: aspirinacomcafev2
   user: root
-  password: root
+  password: ar4nhas
   pool: 5
   timeout: 5000
 
