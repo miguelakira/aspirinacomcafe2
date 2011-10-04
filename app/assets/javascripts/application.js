@@ -7,3 +7,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require script
+//= require superfish
+//= require easySlider1.5
+//= require hoverintent
