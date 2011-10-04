@@ -1,6 +1,7 @@
-<h1>Welcome</h1>
 
 <% @posts.each do |post| %>
+<div class="box post" id="post-1">
+    <div class="content">
   <div class="post-title"><h2><%= post.title %></h2></div>
   <div class="clr"></div>
   <div class="social-links">
@@ -10,13 +11,20 @@
 	<div class="clr"></div>
   </div>
   <!--/social-links -->
+
   <div class="post-pic fl"> <a href="#" rel="bookmark" title="Permanent Link to Hello world!"><img src="/assets/img_1.jpg" alt="Post Pic" width="198" height="111" /></a> </div>
+
   <div class="post-excerpt">
     <strong><%= raw(post.description) %> </strong>
     <br />
     <p><span>Deixe seu  <a href="#" title="Leave Your Response">Comentário »</a></span></p>
   </div>
   <!--/post-excerpt -->
-  <br />
-  
+  <hr>
+  </div>
+   <!--/content -->
+   <div class="clr"></div>
+   </div>
+   <!--/box -->
+
 <% end %>

@@ -113,13 +113,13 @@ h4 { font-size:1em; margin:0 0 1em; }
 /*- Post Title -*/
 .post-pic { padding:8px; background:#fff; border:1px solid #cfcfcf; margin:10px 20px 0 0; }
 /*- Post Title -*/
-.post-title { padding:0; }
+.post-title { padding:0; margin-top: 15px; }
 .post-title h2 { margin:0; padding:0; font:normal 18px Arial, Helvetica, sans-serif; color:#494949; text-transform:uppercase; }
 .post-title h2 a { display:inline; padding:0; margin:0; color:#494949; text-decoration:none; }
 /*- Post Date -*/
 .post-date { float:left; }
 /*- Post Excerpt -*/
-.post-excerpt { display:table; font:normal 13px Arial, Helvetica, sans-serif; color:#838383; padding:5px 0; line-height:1.8em; }
+.post-excerpt { width: 374px; display:table; font:normal 13px Arial, Helvetica, sans-serif; color:#838383; padding:5px 0; line-height:1.8em; }
 .post-excerpt a { color:#40c3de; text-decoration:none; font-weight:bold; }
 .post-excerpt a:hover { text-decoration:underline; }
 .post-excerpt span { float:right; color:#f7f7f7; background:#191919; padding:10px; }
