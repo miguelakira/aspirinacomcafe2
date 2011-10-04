@@ -134,11 +134,11 @@ h4 { font-size:1em; margin:0 0 1em; }
 .author-details { font-size:.85em; }
 .author-descr { display:table; height:1%; }
 /*- Social Links -*/
-.social-links { padding:5px 10px; font:normal 12px Arial, Helvetica, sans-serif; color:#fffefe; background:#38c1dd; border:1px solid #45d4f1; }
+.social-links { padding:5px 10px; font:normal 12px Arial, Helvetica, sans-serif; color:#fffefe; background:#38c1dd; border:1px solid #45d4f1; margin-top:3px; }
 .social-links a { text-decoration:underline; font-weight:bold; color:#fff; }
 .social-links a:hover { text-decoration:none; }
 /* post-commets */
-.post-commets { float:right; }
+.post-comments { float:right; }
 /*- Related Posts -*/
 .post-rel { line-height:1.5em; }
 .post-rel a { color:#33707E; }
